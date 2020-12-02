@@ -5,4 +5,4 @@ var_dump("下底は？");
 $bottom = fgets( STDIN );
 var_dump("高さは？");
 $height = fgets( STDIN );
-var_dump("面積は".($top*$height)/2);
+var_dump("面積は".($top+$bottom)*$height/2);
