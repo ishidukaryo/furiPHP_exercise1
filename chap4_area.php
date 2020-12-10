@@ -4,7 +4,7 @@ function calcArea($top, $bottom, $height) {
     return $area;
 }
 function displayMsg($top, $bottom, $height, $area) {
-    $msg = <<< EOM
+    $msg = <<<EOM
 台形のサイズ
 上底：{$top}
 下底：{$bottom}
