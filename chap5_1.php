@@ -43,10 +43,12 @@ $sign = constellation($month,$day);
     <title>星座チェック</title>
 </head>
 <body>
+    <h1>星座チェック</h1>
     <?php if(empty($month) || empty($day)):    ?>
+        <p>月日を入力してください</p>
         <form method = "get">
-            <input name = "month" type = "number" min = "1" max = "12">
-            <input name = "day" type = "number" min = "1" max = "31">
+            <input name = "month" type = "number" min = "1" max = "12">月
+            <input name = "day" type = "number" min = "1" max = "31">日
             <input type = "submit" value = "OK">
         </form>
     <?php else :    ?>
