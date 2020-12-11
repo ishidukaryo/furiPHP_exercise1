@@ -51,7 +51,7 @@ $sign = constellation($month,$day);
             <input name = "day" type = "number" min = "1" max = "31">日
             <input type = "submit" value = "OK">
         </form>
-    <?php else :    ?>
+    <?php else : ?>
         <p><?= h($month) ?>月<?= h($day) ?>日生まれは<?= ($sign) ?>です。</p>
     <?php endif; ?>
 </body>
